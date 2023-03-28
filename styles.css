@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(243, 228, 211);
+    font-family: 'Ubuntu', sans-serif;
+}
+#header-img{
+    margin: 25px;
+    height: auto;
+    width: 150px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 9vh;
+  background-color: #e6d8ab;
+  /* Ajusta la altura y el color de fondo según tus necesidades */
+}
+
+.navar{
+padding: 60vh;
+}
+
+#nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  
+  /* Elimina el marcador y ajusta el espacio del menú */
+}
+
+#nav-bar li {
+    font-size: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  font-family: 'Ubuntu', sans-serif;
+  /* Ajusta el margen de los elementos de la lista en el menú */
+}
+
+
+#nav-bar a {
+  text-decoration: none;
+  color: #271f1c;
+  /* Ajusta los estilos de los enlaces en el menú */
+}
+
+nav a:hover {
+	background-color: rgba(0, 0, 0, 0.267);
+	color: black;
+    border-radius: 2rem;
+	
+}
+
+
+
+.info{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.info h1{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.info p{
+    font-size: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.info img{
+    margin: 20px;
+    height: 60vh;
+    width: auto;
+    border: 3px solid #000000;
+
+}
+
+
+.video{
+	width: 100%;
+	display: flex;
+	padding: 50px;
+	justify-content: center;
+	gap: 1rem;
+	flex-direction: column;
+	align-items: center;
+	
+
+}
+  .iframevideo{
+	border-radius: 2mm;
+    border: #271f1c;
+  }
+
+
+/* Estilos para el footer */
+footer {
+    height: 20vh;
+    background-color:#e6d8ab;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family:sans-serif;
+  }
+  
+  footer h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px    ;
+  }
+  .redes{
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 20px;
+    justify-content: center;
+  }
+  .contacto{
+    text-align: center;
+    padding-right: 500px;
+    padding-top: 20px;
+  }
+  
+  .redes ul,
+  .contacto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .redes li,
+  .contacto li {
+    margin-bottom: 5px;
+  }
+  
+  .redes a,
+  .contacto a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .redes a:hover,
+  .contacto a:hover {
+    color: #c0392b;
+  }
+  .marca{
+    padding-bottom: 10px;
+    background-color: #e6d8ab;
+    text-align: center;
+  }
+
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 767px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+  form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	max-width: 400px;
+	background-color: #e6d8ab;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	text-align: center;
+}
+label {
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 10px;
+}
+input[type="email"] {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+	background-color: #555;
+}
